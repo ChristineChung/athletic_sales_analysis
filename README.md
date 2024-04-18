@@ -1,9 +1,8 @@
-# Module 5 challenge
+# Module 5 challenge - Analyzing Athletic Sales Data for Women's Footwear
 
-# Analyzing Athletic Sales Data for Women's Footwear 
 
-## athletic_sales_analysis Table of Contents
-1. [Introduction](#introduction)
+## Table of Contents
+1. [Usage and Introduction](#usage-and-introduction)
 2. [Data Preparation](#data-preparation)
    - [Combine and Clean the Data](#combine-and-clean-the-data)
    - [Check for Null Values](#check-for-null-values)
