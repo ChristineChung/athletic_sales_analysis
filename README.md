@@ -99,7 +99,7 @@ product_sales_piv = product_sales_piv.sort_values(by='Total_Products_Sold', asce
 `
 ```
 ## Show the top 5 results
-`print(product_sales_piv.head(5))`
+`product_sales_piv.head(5)`
 
 
 ## 4. Determine the Region with the Most Sales - Using Groupby
@@ -138,7 +138,7 @@ sales_pivot = sales_pivot.sort_values(by='Total Sales', ascending=False)
 
 ### Show the top 5 results
 `print("Top 5 regions with the most sales:")
-print(sales_pivot.head(5))`
+sales_pivot.head(5)`
 
 ## 5. Determine the Retailer with the Most Sales - Using Groupby
 
