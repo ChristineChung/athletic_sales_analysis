@@ -142,7 +142,7 @@ print(sales_pivot.head(5))`
 
 ## 5. Determine the Retailer with the Most Sales - Using Groupby
 
-*** I received help from the BCS tutor for this code below: ***
+*** _I received help from the BCS tutor for this code below on 4/16/2024_ ***
 
 The code uses the `groupby()` function to group the `combined_df` by retailer, region, state, and city, and then sums the `total_sales` column to get the total sales for each group. The resulting DataFrame is sorted in descending order by the `total_sales` column, and the top 5 results are displayed.
 Use either the groupby function to create a multi-index DataFrame 
@@ -220,7 +220,7 @@ womens_sales_pivot = womens_sales_pivot.sort_values(by='Womens_Footwear_Units_So
 
 ## 7. Determine the Day with the Most Women's Athletic Footwear Sales
 
-*** Alberto helped me fix/troubleshoot my original code below during office hours on 4/17/24 ***
+*** _Alberto helped me fix/troubleshoot my original code below during office hours on 4/17/24_ ***
 
 The code first filters the `combined_df` to only include rows where the `product` column is "Women's Athletic Footwear". It then creates a pivot table with the `invoice_date` as the index and the `total_sales` column as the values, which are summed. The resulting DataFrame is sorted in descending order by the `Total_Sales` column, and the top 10 results are displayed.
 
@@ -241,6 +241,8 @@ The code first filters the `combined_df` to only include rows where the `product
 `
 
 ## 8. Determine the Week with the Most Women's Athletic Footwear Sales
+
+*** _Alberto helped me fix/troubleshoot this code below as well during office hours on 4/17/24_ ***
 
 The code first filters the `combined_df` to only include rows where the `product` column is "Women's Athletic Footwear". It then creates a pivot table with the `invoice_date` as the index and the `total_sales` column as the values, which are summed. The resulting DataFrame is resampled to a weekly frequency using the `resample('W')` function, and the resulting weekly sales are sorted in descending order by the `Total_Sales` column. The top 10 results are displayed.
 
