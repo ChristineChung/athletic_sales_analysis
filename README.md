@@ -137,8 +137,8 @@ sales_pivot = sales_pivot.sort_values(by='Total Sales', ascending=False)
 ```
 
 ### Show the top 5 results
-`print("Top 5 regions with the most sales:")
-sales_pivot.head(5)`
+
+`sales_pivot.head(5)`
 
 ## 5. Determine the Retailer with the Most Sales - Using Groupby
 
